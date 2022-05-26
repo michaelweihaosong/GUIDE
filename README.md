@@ -11,7 +11,7 @@ For more details on Pytorch Geometric please refer to install the PyTorch Geomet
 
 
 ```
-conda create --name guide python==3.7.11`
+conda create --name guide python==3.7.11
 conda install pytorch==1.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+cu111.html
