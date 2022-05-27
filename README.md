@@ -16,7 +16,7 @@ conda install pytorch==1.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.0+cu111.html
 pip install torch-sparse -f https://data.pyg.org/whl/torch-1.10.0+cu111.html
-pip install torch-geometric==2.0.3
+pip install torch-geometric==2.0.1
 
 pip install aif360==0.3.0
 ```
