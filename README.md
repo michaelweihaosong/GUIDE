@@ -31,20 +31,20 @@ The main scripts are listed below: GUIDE, InFoRM, PFR, FairGNN, NIFTY, and vanil
 ### Examples
 run GUIDE: Evaluate fairness and utility performance of GCN and credit dataset
 
-`python run_guide.py --model gcn --dataset credit --alpha 2.5e-5 --beta 10 --seed 1`
+`python run_guide.py --model gcn --dataset credit --alpha 5e-6 --beta 1 --seed 1`
 <p align="left"><i>
-  The AUCROC of estimator: 0.6701<br/>
-  Total Individual Unfairness: 345.5497<br/>
-  GDIF: 1.0002<br/>
+  The AUCROC of estimator: 0.6776<br/>
+  Total Individual Unfairness: 1886.4669<br/>
+  GDIF: 1.0030<br/>
 </i></p>
 
 run InFoRM: Evaluate fairness and utility performance of InFoRM-GCN and credit dataset
 
 `python run_inform.py --model gcn --dataset credit --alpha 5e-7 --opt_if 1 --seed 1`
 <p align="left"><i>
-  The AUCROC of estimator: 0.6956<br/>
-  Total Individual Unfairness: 20207.9707<br/>
-  GDIF: 1.4138<br/>
+  The AUCROC of estimator: 0.6813<br/>
+  Total Individual Unfairness: 2408.4109<br/>
+  GDIF: 1.4903<br/>
 </i></p>  
 
 run PFR: Evaluate fairness and utility performance of PFR-GCN and credit dataset
@@ -74,7 +74,7 @@ run NIFTY: Evaluate fairness and utility performance of NIFTY-GCN and credit dat
   GDIF: 1.2466<br/>
 </i></p>  
 
-run vanilla GNN: Evaluate fairness and utility performance of GCN and credit dataset
+run vanilla GNN: Evaluate fairness and utility performance of GCN and credit dataset (note it is using run_inform.py but with opt_if flag off)
 
 `python run_inform.py --model gcn --dataset credit --alpha 0 --opt_if 0 --seed 1`
 <p align="left"><i>
