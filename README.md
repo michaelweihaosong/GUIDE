@@ -41,7 +41,7 @@ run GUIDE: Evaluate fairness and utility performance of GCN and credit dataset
 
 run InFoRM: Evaluate fairness and utility performance of InFoRM-GCN and credit dataset
 
-`python run_inform.py --model gcn --dataset credit --alpha 5e-7 --opt_if 1 --seed 1`
+`python run_inform.py --model gcn --dataset credit --alpha 5e-6 --opt_if 1 --seed 1`
 <p align="left"><i>
   The AUCROC of estimator: 0.6813<br/>
   Total Individual Unfairness: 2408.4109<br/>
