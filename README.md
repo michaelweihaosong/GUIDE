@@ -24,7 +24,7 @@ pip install aif360==0.3.0
 
 
 ## 2. Datasets
-We ran our experiments on two high-stakes datasets: credit and income and also a larger social network dataset pokec. All the data are present in the './dataset' folder. Due to space constraints, pokec is zipped so please unzip it before use. 
+We ran our experiments on two high-stakes datasets: credit and income and also a larger social network dataset pokec. All the data are present in the './dataset' folder. **Due to space constraints, pokec is zipped so please unzip it before use**. 
 
 ## 3. Usage
 The main scripts are listed below: GUIDE, InFoRM, PFR, FairGNN, NIFTY, and vanilla are included.
